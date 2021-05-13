@@ -1,5 +1,10 @@
 import React from 'react';
+
+
 import transcript from '../files/NamManLeung_transcript.pdf';
+const path ="http://csci2720-g74.cse.cuhk.edu.hk/mypdf"
+
+
 export default function Academic(props){
     return(
         <div>
@@ -17,8 +22,9 @@ export default function Academic(props){
         </h6>
         <div>
             <h5>Transcript</h5>
-            <iframe src={transcript} style={{width:'100%',height:600}}></iframe>
+            <iframe src={path} style={{width:'100%',height:600}}></iframe>
         </div>
+        
         </div>
     )
 }
