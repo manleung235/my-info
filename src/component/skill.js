@@ -3,7 +3,7 @@ import React from 'react'
 export default function Skill(props){
     return(
         <duv>
-            <table className="table">
+            <table className="table table-striped" style={{border:"solid",borderWidth:1}}>
                 <tr>
                     <th rowSpan="3">Languages</th>
                     <td>Cantonese</td>
