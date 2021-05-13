@@ -6,18 +6,25 @@ import CourseWork from './coursework';
 import Skill from './skill';
 import {CSSTransition, TransitionGroup} from 'react-transition-group'
 import '../styling/transition.css';
+import WhatsAppIcon from '@material-ui/icons/WhatsApp';
+import MailOutlineIcon from '@material-ui/icons/MailOutline';
+import BookIcon from '@material-ui/icons/Book';
 export default function Home(props){
     
     return(
         <div>
-            <header>
-                <h3>Nam Man Leung</h3>
-                <div>
+            <header >
+                <div className="d-flex justify-content-center">
+                    <h3>Nam Man Leung</h3>
+                </div>
+                <div className="d-flex justify-content-center">
                 <img src={selfImage}></img>
                 </div>
-                <p>
-                I am currently a year 3 student studying Computer Science.
-                </p>
+                <div className="d-flex justify-content-center">
+                    <p>
+                    I am currently a year 3 student studying Computer Science.
+                    </p>
+                </div>
             </header>
             <Router>
                 <nav className="navbar navbar-expand-lg navbar-light bg-light">
@@ -75,10 +82,11 @@ export default function Home(props){
             </Router>
             <footer>
                 <p>Contact me:</p>
+                
                 <ul>
-                    <li>+852 53449819</li>
+                    <li><WhatsAppIcon />+852 53449819</li>
                     {/*<li>+852 53449819</li>*/}
-                    <li><a href='mailto:plmichael1224@gmail.com'>plmichael1224@gmail.com</a></li>
+                    <li><MailOutlineIcon /><a href='mailto:plmichael1224@gmail.com'>plmichael1224@gmail.com</a></li>
                 </ul>
             </footer>
         </div>
