@@ -4,7 +4,7 @@ export default function CourseWork(props){
     return(
         <div>
             <div>
-                <h6>Journey Time Indicators (Web Application) Apr 2021 – May 2021</h6>
+                <h6><a href="http://csci2720-g74.cse.cuhk.edu.hk/">Journey Time Indicators (Web Application) Apr 2021 – May 2021</a></h6>
                 <ul>
                     <li>
                     Invoked API from the government and Mapbox GL to render maps with markings

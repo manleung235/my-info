@@ -20,11 +20,12 @@ export default function Academic(props){
         <h6>
             Major GPA : 3.58 / 4.00
         </h6>
+        {/*
         <div>
             <h5>Transcript</h5>
             <iframe src={path} style={{width:'100%',height:600}}></iframe>
         </div>
-        
+        */}
         </div>
     )
 }

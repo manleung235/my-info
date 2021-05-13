@@ -8,7 +8,8 @@ import {CSSTransition, TransitionGroup} from 'react-transition-group'
 import '../styling/transition.css';
 import WhatsAppIcon from '@material-ui/icons/WhatsApp';
 import MailOutlineIcon from '@material-ui/icons/MailOutline';
-import BookIcon from '@material-ui/icons/Book';
+
+
 export default function Home(props){
     
     return(
